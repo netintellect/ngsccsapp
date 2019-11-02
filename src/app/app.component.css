@@ -1,0 +1,30 @@
+:host {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.827em;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 1em 0 0.25em;
+  padding: 0.25em 0 0.25em 0;
+}
+
+strong {
+  color: #2A9FBC;
+  cursor: pointer;
+  text-decoration: none;
+}
+strong:hover, strong:active {
+  text-decoration: underline;
+}
+strong:hover {
+  color: #1F778D;
+}
+strong:active {
+  color: #F15B2A;
+}
+strong:visited {
+  color: #404040;
+}
+/*# sourceMappingURL=app.component.css.map */
