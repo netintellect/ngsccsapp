@@ -1,0 +1,21 @@
+@import '../shared/scss/root/colors';
+@import '../shared/scss/layout/container';
+@import '../shared/scss/typography/headers';
+
+.header {
+    background: $g-root__color--secondary--03a;
+    display: block;
+    font-family: arial, sans-serif;
+    overflow: hidden;
+
+    &__content {
+        @include g-layout__container;
+    }
+    &__title {
+        @include g-root__h1;
+        color: white;
+    }
+    &__sub-title {
+        color: #888;
+    }
+}

@@ -1,0 +1,32 @@
+@import 'variables';
+
+@mixin menu-primary__icon {
+  fill: white;
+  height: $menu-primary__icon-size;
+  width: $menu-primary__icon-size;
+}
+
+@mixin navigation__search {
+
+  &--search {
+    margin-left: auto;
+  }
+  &__search {
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+    &-field {
+      background: rgba(white, 0.25);
+      border: none;
+      border-radius: 0.3em;
+      color: white;
+      padding: 0.25em 0.5em;
+      width: 14em;
+    }
+    &-icon {
+      @include menu-primary__icon;
+      margin-left: 0.5em;
+    }
+  }
+}
